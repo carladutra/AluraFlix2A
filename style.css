@@ -3,6 +3,7 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #165bf7;
     --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
 }
 
 *{
@@ -36,5 +37,6 @@ body{
 }
 
 .botão2{
-   
+   background-color: transparent;
+   border: 2px solid white;
 }
