@@ -23,10 +23,18 @@ body{
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container_botão{
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     border-radius: 5px;
+    padding: 1em;
+    display: block;
+}
+
+.botão2{
+   
 }
