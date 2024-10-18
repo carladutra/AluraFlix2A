@@ -4,7 +4,6 @@
     --botao-azul: #165bf7;
     --cor-de-fundo: #00030c;
     --fonte-principal: "Inter";
-    
 }
 
 *{
@@ -87,4 +86,23 @@ body{
 
 .container_descricao{
     padding: 2em;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 48px;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: 48px;
+}
+
+.item_lista{
+    font-size: 32px;
 }
